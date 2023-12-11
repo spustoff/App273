@@ -20,6 +20,7 @@ struct Loading: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 150, height: 150)
+                .shadow(color: Color("primary"), radius: 150, x: 0, y: 0)
             
             ProgressView()
                 .frame(maxHeight: .infinity, alignment: .bottom)

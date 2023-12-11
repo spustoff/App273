@@ -27,7 +27,7 @@ struct SettingsView: View {
                 
                 Button(action: {
                     
-                    guard let url = URL(string: "https://docs.google.com/document/d/1jXaVVEKJ-yXsSqE_0WK7YwaObuIeGDRn8Ps_fKSmOZw/edit?usp=sharing") else { return }
+                    guard let url = URL(string: "https://docs.google.com/document/d/1HlrstRriXADAA6Jr6VuNpv2bj80Ty960Ccw9CKWU0U8/edit?usp=sharing") else { return }
                     
                     UIApplication.shared.open(url)
                     
